@@ -51,6 +51,18 @@ This approach significantly improves answer reliability while remaining scalable
 
 ---
 
+## Example Workflow
+
+1. Load dealership dataset
+2. Generate text embeddings
+3. Store vectors in ChromaDB
+4. Query the vector database
+5. Retrieve the most relevant dealership information
+6. Generate an AI-powered response
+7. Display results through Gradio
+
+---
+
 ## Installation
 
 ```bash
@@ -63,6 +75,19 @@ Run:
 
 
 Open `RAG_Model.ipynb`.
+
+
+## Potential Applications
+
+- AI Sales Assistant
+- Vehicle Recommendation System
+- Customer Support Chatbot
+- Automotive Knowledge Base
+- Intelligent Inventory Search
+- Dealer Information Assistant
+
+---
+
 
 ## Learning Outcomes
 
