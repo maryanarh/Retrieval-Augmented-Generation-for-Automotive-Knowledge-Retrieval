@@ -20,9 +20,6 @@ pip install -r requirements.txt
 
 Run:
 
-```bash
-jupyter notebook
-```
 
 Open `RAG_Model.ipynb`.
 
