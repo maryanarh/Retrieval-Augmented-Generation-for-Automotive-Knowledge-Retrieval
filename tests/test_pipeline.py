@@ -4,10 +4,10 @@ from app.rule_based import rule_based_response
 
 # Test 1: Intent Classification
 def test_classify_price_query():
-    assert classify_intent("How much does a Honda cost?") == "price_query"
+    assert classify_intent("How much does a Toyota cost?") == "price_query"
 
 def test_classify_vehicle_info():
-    assert classify_intent("Tell me about Toyota models from 2022") == "vehicle_info"
+    assert classify_intent("Tell me about BMW models from 2022") == "vehicle_info"
 
 def test_classify_business_info():
     assert classify_intent("Where is your dealership located?") == "business_info"
